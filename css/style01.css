@@ -200,7 +200,7 @@ button.submit:active {
 .form_hint::before {
     content: "\25c0";
     position: absolute;
-    color: red;
+    color: green;
     top: 1px;
     left: -6px;
 
@@ -211,9 +211,6 @@ button.submit:active {
     display: inline;
 
 }
-
-
-
 
 .contact_form input:required:valid + .form_hint::before {
     color: green;
