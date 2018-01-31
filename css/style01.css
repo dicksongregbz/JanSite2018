@@ -207,10 +207,7 @@ button.submit:active {
 
 }
 
-.contact_form input:focus + .form_hint{ 
-    display: inline;
 
-}
 
 .contact_form input:required:valid + .form_hint::before {
     color: green;
